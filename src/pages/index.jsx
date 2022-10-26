@@ -21,10 +21,8 @@ export default function Home() {
         <title>Index Page</title>
       </Head>
       <Header />
-      <Link>
-        <a href="/about" onClick={handleClick}>
-          ボタン
-        </a>
+      <Link href="/about">
+        <a onClick={handleClick}>ボタン</a>
       </Link>
 
       <Main page="index" />
